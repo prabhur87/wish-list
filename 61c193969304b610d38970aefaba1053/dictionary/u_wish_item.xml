@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a472171e9304b610d38970aefaba10e0" label="Wish Item" max_length="40" name="u_wish_item" type="collection">
+        <element label="ters" max_length="40" name="u_ters" type="string"/>
         <element attributes="encode_utf8=false" label="Requester" max_length="32" name="u_requester" reference="sys_user" type="reference"/>
         <element label="URL" max_length="1024" name="u_url" type="url"/>
         <element label="welcome" max_length="40" name="u_welcome" type="string"/>
